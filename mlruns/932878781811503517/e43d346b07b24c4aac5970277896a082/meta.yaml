@@ -1,0 +1,16 @@
+artifact_uri: file:///home/isaac/Projects/stReID/mlruns/932878781811503517/e43d346b07b24c4aac5970277896a082/artifacts
+deleted_time: 1742098701523
+end_time: 1741656254177
+entry_point_name: ''
+experiment_id: '932878781811503517'
+lifecycle_stage: deleted
+run_id: e43d346b07b24c4aac5970277896a082
+run_name: hilarious-sow-616
+run_uuid: e43d346b07b24c4aac5970277896a082
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741656193991
+status: 3
+tags: []
+user_id: isaac

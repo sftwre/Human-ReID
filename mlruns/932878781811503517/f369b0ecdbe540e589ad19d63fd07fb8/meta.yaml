@@ -1,0 +1,15 @@
+artifact_uri: file:///home/isaac/Projects/stReID/mlruns/932878781811503517/f369b0ecdbe540e589ad19d63fd07fb8/artifacts
+end_time: 1741825092851
+entry_point_name: ''
+experiment_id: '932878781811503517'
+lifecycle_stage: active
+run_id: f369b0ecdbe540e589ad19d63fd07fb8
+run_name: masked-hog-908
+run_uuid: f369b0ecdbe540e589ad19d63fd07fb8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741823938399
+status: 3
+tags: []
+user_id: isaac

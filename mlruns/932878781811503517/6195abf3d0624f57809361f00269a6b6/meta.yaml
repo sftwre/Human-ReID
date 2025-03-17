@@ -1,0 +1,16 @@
+artifact_uri: file:///home/isaac/Projects/stReID/mlruns/932878781811503517/6195abf3d0624f57809361f00269a6b6/artifacts
+deleted_time: 1741821500178
+end_time: null
+entry_point_name: ''
+experiment_id: '932878781811503517'
+lifecycle_stage: deleted
+run_id: 6195abf3d0624f57809361f00269a6b6
+run_name: magnificent-frog-932
+run_uuid: 6195abf3d0624f57809361f00269a6b6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741819346732
+status: 1
+tags: []
+user_id: isaac

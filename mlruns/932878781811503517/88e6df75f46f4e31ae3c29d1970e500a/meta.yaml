@@ -1,0 +1,16 @@
+artifact_uri: file:///home/isaac/Projects/stReID/mlruns/932878781811503517/88e6df75f46f4e31ae3c29d1970e500a/artifacts
+deleted_time: 1741823508388
+end_time: null
+entry_point_name: ''
+experiment_id: '932878781811503517'
+lifecycle_stage: deleted
+run_id: 88e6df75f46f4e31ae3c29d1970e500a
+run_name: caring-kite-597
+run_uuid: 88e6df75f46f4e31ae3c29d1970e500a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741822495657
+status: 1
+tags: []
+user_id: isaac

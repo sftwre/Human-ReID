@@ -1,0 +1,16 @@
+artifact_uri: file:///home/isaac/Projects/stReID/mlruns/932878781811503517/f606079d941a4afc8f63da3ac6235539/artifacts
+deleted_time: 1741821500178
+end_time: null
+entry_point_name: ''
+experiment_id: '932878781811503517'
+lifecycle_stage: deleted
+run_id: f606079d941a4afc8f63da3ac6235539
+run_name: industrious-calf-120
+run_uuid: f606079d941a4afc8f63da3ac6235539
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741815656645
+status: 1
+tags: []
+user_id: isaac

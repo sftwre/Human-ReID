@@ -1,0 +1,16 @@
+artifact_uri: file:///home/isaac/Projects/stReID/mlruns/932878781811503517/458091360bbf405a902c150264f20bd7/artifacts
+deleted_time: 1742198029923
+end_time: 1742186466301
+entry_point_name: ''
+experiment_id: '932878781811503517'
+lifecycle_stage: deleted
+run_id: 458091360bbf405a902c150264f20bd7
+run_name: delightful-asp-68
+run_uuid: 458091360bbf405a902c150264f20bd7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742186391923
+status: 4
+tags: []
+user_id: isaac

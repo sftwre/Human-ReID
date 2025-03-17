@@ -1,0 +1,16 @@
+artifact_uri: file:///home/isaac/Projects/stReID/mlruns/932878781811503517/0d047e37f9934edb959b126a6082176a/artifacts
+deleted_time: 1741821500178
+end_time: null
+entry_point_name: ''
+experiment_id: '932878781811503517'
+lifecycle_stage: deleted
+run_id: 0d047e37f9934edb959b126a6082176a
+run_name: luxuriant-sloth-539
+run_uuid: 0d047e37f9934edb959b126a6082176a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741819327747
+status: 1
+tags: []
+user_id: isaac

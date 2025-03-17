@@ -1,0 +1,15 @@
+artifact_uri: file:///home/isaac/Projects/stReID/mlruns/932878781811503517/8f72b2f6abf14bed9fb73a67ffaf4c56/artifacts
+end_time: 1742183284864
+entry_point_name: ''
+experiment_id: '932878781811503517'
+lifecycle_stage: active
+run_id: 8f72b2f6abf14bed9fb73a67ffaf4c56
+run_name: serious-kit-735
+run_uuid: 8f72b2f6abf14bed9fb73a67ffaf4c56
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742182645924
+status: 3
+tags: []
+user_id: isaac

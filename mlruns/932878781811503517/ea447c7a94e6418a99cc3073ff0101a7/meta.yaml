@@ -1,0 +1,15 @@
+artifact_uri: file:///home/isaac/Projects/stReID/mlruns/932878781811503517/ea447c7a94e6418a99cc3073ff0101a7/artifacts
+end_time: 1741808736296
+entry_point_name: ''
+experiment_id: '932878781811503517'
+lifecycle_stage: active
+run_id: ea447c7a94e6418a99cc3073ff0101a7
+run_name: inquisitive-wren-373
+run_uuid: ea447c7a94e6418a99cc3073ff0101a7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741806356908
+status: 3
+tags: []
+user_id: isaac

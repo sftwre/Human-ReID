@@ -1,0 +1,16 @@
+artifact_uri: file:///home/isaac/Projects/stReID/mlruns/932878781811503517/a2185071ae9641eb8451981cb80c380a/artifacts
+deleted_time: 1742098682186
+end_time: 1741655794971
+entry_point_name: ''
+experiment_id: '932878781811503517'
+lifecycle_stage: deleted
+run_id: a2185071ae9641eb8451981cb80c380a
+run_name: thoughtful-mouse-985
+run_uuid: a2185071ae9641eb8451981cb80c380a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741655794958
+status: 4
+tags: []
+user_id: isaac

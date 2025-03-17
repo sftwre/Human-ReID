@@ -1,0 +1,16 @@
+artifact_uri: file:///home/isaac/Projects/stReID/mlruns/932878781811503517/d348509b7806411e9aa3c1a7f5f3afd7/artifacts
+deleted_time: 1742098682177
+end_time: 1741656044151
+entry_point_name: ''
+experiment_id: '932878781811503517'
+lifecycle_stage: deleted
+run_id: d348509b7806411e9aa3c1a7f5f3afd7
+run_name: capable-doe-118
+run_uuid: d348509b7806411e9aa3c1a7f5f3afd7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741656044139
+status: 4
+tags: []
+user_id: isaac

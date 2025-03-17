@@ -1,0 +1,16 @@
+artifact_uri: file:///home/isaac/Projects/stReID/mlruns/932878781811503517/ada956bcf9bd4fbfb0e2449226602551/artifacts
+deleted_time: 1742098682185
+end_time: 1741656044113
+entry_point_name: ''
+experiment_id: '932878781811503517'
+lifecycle_stage: deleted
+run_id: ada956bcf9bd4fbfb0e2449226602551
+run_name: brawny-rat-337
+run_uuid: ada956bcf9bd4fbfb0e2449226602551
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741655951640
+status: 4
+tags: []
+user_id: isaac

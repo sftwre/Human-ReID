@@ -1,0 +1,15 @@
+artifact_uri: file:///home/isaac/Projects/stReID/mlruns/932878781811503517/e6cee0b32d314580bfa7cf403a77fae8/artifacts
+end_time: 1741657528107
+entry_point_name: ''
+experiment_id: '932878781811503517'
+lifecycle_stage: active
+run_id: e6cee0b32d314580bfa7cf403a77fae8
+run_name: persistent-stork-965
+run_uuid: e6cee0b32d314580bfa7cf403a77fae8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741656333513
+status: 3
+tags: []
+user_id: isaac
