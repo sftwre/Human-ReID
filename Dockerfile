@@ -7,9 +7,12 @@ COPY requirements.txt ./
 COPY *.py ./
 COPY models ./models
 COPY index ./index
+COPY runs ./runs
+COPY mlruns ./mlruns
 COPY dashboards.sh ./
 
-RUN pip install --no-cache-dir -r requirements.txt
+RUN python -m pip install --upgrade pip
+RUN python -m pip install --no-cache-dir -r requirements.txt
 
 EXPOSE 6006
 

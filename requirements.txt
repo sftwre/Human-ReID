@@ -5,3 +5,4 @@ scipy
 tensorboard
 mlflow
 faiss-cpu
+torchmetrics

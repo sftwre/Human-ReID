@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # launch mlflow
-mlflow server --port 8080 &
+mlflow server --host 0.0.0.0 --port 8080 &
 MLFLOW_PID=$!
 
 # launch tensorboard
-tensorboard --logdir=./runs &
+tensorboard --host=0.0.0.0 --logdir=./runs --port=6006 &
 TENSORBOARD_PID=$!
 
 echo "MLFlow PID: $MLFLOW_PID"
