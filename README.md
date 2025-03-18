@@ -17,10 +17,36 @@ The results above were produced from the pre-trained model located at `models/ma
 # Environment setup
 This project has only been tested on Python 3.12.4, so it's the recommended version.
 
-There are two options to setting up your development environment
+There are three options for setting up your development environment
 
-1. [Virtual environment](#initializing-a-virtual-env) (recommended for training new models)
-2. [Docker](#docker) (quickest way to play with the model)
+1. [Pull Docker image](#pull-image-from-docker-hub) (quickest way to play with the model)
+2. [Virtual environment](#initializing-a-virtual-env) (best for training new models)
+3. [Build Docker image](#build-docker-image-from-source)
+
+## Pull image from Docker Hub
+
+Pull the pre-built image from docker hub
+```bash
+docker pull texashookem/human_reid_mi:inference
+```
+
+Feel free to restrict compute resources to the container, but for demonstration purposes the container should be launched in privileged mode to access needed compute.
+This will launch the container in interactive mode and initialize a bash shell at startup.
+
+```bash
+docker run --privileged -it texashookem/human_reid_mi:inference
+```
+Perform inference on the default query image 
+
+```bash
+python inference.py --load_index
+```
+
+Perform inference on list of query images 
+
+```bash
+python inference.py --load_index --query_paths <list of image paths> --topk 10
+```
 
 
 ## Initializing a virtual env
@@ -31,7 +57,7 @@ There are two options to setting up your development environment
    3. Install project dependencies `pip install -r requirements.txt`
    4. Download Market-1501 dataset and rearrange image directories by running `python data_prep.py`
 
-## Docker
+## Build Docker image from source
 
 1. Build docker container 
 ```bash
@@ -41,7 +67,7 @@ This will create a container with the target python version, project dependencie
 
 2. Run container in interactive mode
 ```bash
-docker run -it reid
+docker run -it -p 6006:6006 -p 8080:8080 reid
 ```
 
 3. Test default model
@@ -62,8 +88,8 @@ These tools are recommended for training new models as they centralize experimen
    This script is responsible for managing the visualization dashboards. It will automatically stop all launched services when it's terminated. Once the script executes, Tensorboard will be accessible at [http://localhost/6006](http://localhost:6006) and MlFlow on [http://localhost:8080](http:/localhost:8080). At this point, you're in a good spot to begin training new models or evaluating the provided models. A recommended experimentation workflow is outlined below
 
 1. Train a new model by running `python train.py`. See the script source for available cli parameters.
-2. Evaluate the trained model on the gallery set by running `python eval.py --exp_name <name> --save_index`
-3. View Top-5 retrieval results for a query image by running `python inference.py --exp_name <name> --query_paths <img path> --load_index`
+2. [Evaluate](#evaluation) the trained model on the gallery set by running `python eval.py --exp_name <name> --save_index`
+3. [View Top-5](#inference) retrieval results for a query image by running `python inference.py --exp_name <name> --query_paths <img path> --load_index`
 
 Utilizing a trained model within the `eval.py` and `inference.py` scripts requires creating an index over the gallery to perform image retrieval. This is a highly computational process, so it's recommended to serialize an index for a specific model by passing the `--save_index` argument to either of these scripts. This will serialize index data to disk for later use when the `--load_index` argument is provided to the above-mentioned scripts.
 
@@ -97,6 +123,22 @@ python inference.py --load_index --topk 20
 To retrieve the top 5 most similar images with a new model on the default image and save the internal index for evaluation
 ```bash
 python inference.py --exp_name <mlflow exp name> --save_index
+```
+
+# Evaluation
+
+The following snippets will help you evaluate the model on the Market-1501 dataset by computing these
+evaluation metrics: R-1, R-5, R-10, mAP. 
+
+To compute evaluation metrics for the default model
+
+```bash
+python eval.py --load_index
+```
+
+To compute evaluation metrics on a new model and save the index for inference
+```bash
+python eval.py --exp_name <exp name in /runs> --save_index
 ```
 
 # Results
